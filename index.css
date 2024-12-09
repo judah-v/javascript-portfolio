@@ -14,9 +14,7 @@ table td, table th {
     padding: 10px;
     font-size: 2em;
 }
-table td {
-    padding: 0 40px;
-}
+
 img {
     height: 300px;
     padding: 10px;
@@ -33,4 +31,31 @@ caption {
 }
 h1 {
     font-size: 3em;
+}
+@media(max-width: 675px){
+    body {
+        width: fit-content;
+    }
+    img {
+        height: auto;
+        max-width: 22vw;
+    }
+    th, td {
+        width: 40%;
+        padding: 1%;
+        text-align: center;
+    }
+    table *{
+        font-size: 1em !important;
+    }
+    table {
+        width: 95%;
+    }
+    li {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2em;
+        max-width: 90vw;
+    }
 }
