@@ -35,6 +35,7 @@ h1 {
 @media(max-width: 675px){
     body {
         width: fit-content;
+        text-align: center;
     }
     img {
         height: auto;
@@ -49,7 +50,7 @@ h1 {
         font-size: 1em !important;
     }
     table {
-        width: 95%;
+        width: 100%;
     }
     li {
         margin: 10px 0;
