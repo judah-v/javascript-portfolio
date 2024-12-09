@@ -1,6 +1,9 @@
 body {
     background: green;
     color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
     
 }
 table {
